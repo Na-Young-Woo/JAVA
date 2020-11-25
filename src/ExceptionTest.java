@@ -10,8 +10,9 @@ public class ExceptionTest {
         }catch (Exception e){
             System.out.println("범위를 넘어서는 예외가 발생했습니다.");
             System.out.println(e.getMessage()); // 메세지 가져오기
-            e.printStackTrace();
-        }
+          //e.printStackTrace();
+        } //catch 문을 추가로 더 쓸 수도 있음.
+
 
         System.out.println("예외가 발생해도 프로그램은 실행 중입니다.");
         // try catch문을 쓰면 예외 처리 후 정상 작동 진행한다.
